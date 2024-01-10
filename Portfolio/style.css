@@ -1,0 +1,147 @@
+body {
+  background-image: "gradient.avif";
+}
+.topnav {
+  display: flex;
+  height: 50px;
+  width: 100%;
+  background-color:darkgrey;
+  border-radius: 10px;
+}
+.topnav a {
+  text-decoration: none;
+  text-align: center;
+  color:aqua;
+  font-size: 20px;
+  padding: 16px 25px;
+}
+.topnav a:hover {
+  background-color: cornflowerblue;
+  color: white;
+}
+
+.outer {
+  margin: 20px;
+  display: block;
+  border-radius: 20px;
+  height: auto;
+  background-image: url("mid_back.jpg");
+  color: white;
+}
+
+#topsection {
+  text-align: center;
+  margin: auto 120px 50px;
+}
+
+.image-info-wrapper img {
+  width: 200px;
+  margin-top: 10px;
+  border-radius: 100%;
+}
+#myName {
+  font-family: sans-serif;
+  font-size: 35px;
+  color: white;
+}
+.bio-info {
+  font-size: 20px;
+  text-align: center;
+}
+
+.bio ul {
+  list-style: none;
+  font-size: 30px;
+}
+.about-me-para1 p {
+  display: flex;
+}
+#topsection hr {
+  border: 10px dotted;
+  color: black;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+  width: 50px;
+  margin-top: 20px;
+}
+
+/*middle section styling*/
+
+#middlesection {
+  margin: auto 127px 50px;
+}
+
+.heading {
+  text-align: center;
+  font-family: sans-serif;
+  background-color: darkslategrey;
+}
+
+.about-me-para1 h4 {
+  font-family: sans-serif;
+  background-color: blueviolet;
+  width: 100px;
+  text-align: center;
+  color: white;
+  padding: 5px;
+  border-radius: 10px;
+}
+.img-para-conatiner {
+  display: flex;
+  align-items: start;
+}
+
+.para-one-text {
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+.content1 {
+  display: flex;
+}
+
+.sameimg {
+  border-radius: 50%;
+}
+.container {
+  border-radius: 5px;
+  background-color: dimgray;
+  padding: 20px;
+}
+
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid black;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-top: 10px;
+  resize: vertical;
+}
+input[type="submit"] {
+  background-color: #e95074;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: medium;
+}
+
+input[type="submit"] :hover {
+  background-color: darkgreen;
+}
+.footer-div {
+  height: auto;
+  width: 100%;
+  background-color: darkslategray;
+}
+
+.address
+{
+  margin-top: 5px;
+  background-color: black;
+  color: white;
+  height: auto;
+}

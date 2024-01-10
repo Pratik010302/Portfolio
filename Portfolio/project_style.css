@@ -1,0 +1,33 @@
+body{
+    background-image:url("https://media.istockphoto.com/id/915097804/photo/black-brick-wall-background-texture-dark-masonry.jpg?s=612x612&w=0&k=20&c=6E9gSLZ261VciCcXJvig-Sn0Q-ypvqWnEN7iOgv69hk=") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.topnav {
+    display: flex;
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    border-radius: 10px;
+  }
+  .topnav a {
+    text-decoration: none;
+    text-align: center;
+    color: cadetblue;
+    font-size: 20px;
+    padding: 16px 25px;
+  }
+  .topnav a:hover {
+    background-color: cornflowerblue;
+    color: white;
+  }
+
+  .outer{
+    height: auto;
+    width: 100%;
+    background-color:lightblue;
+    border-radius: 15px;
+}

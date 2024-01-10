@@ -1,0 +1,38 @@
+
+body{
+  background-image: url("certificate.jpg");
+  background-repeat:no-repeat;
+  background-size: cover;
+}
+
+.topnav {
+    display: flex;
+    height: 50px;
+    width: 100%;
+    background-color: darkgray;
+    border-radius: 10px;
+  }
+  .topnav a {
+    text-decoration: none;
+    text-align: center;
+    color: aqua;
+    font-size: 20px;
+    padding: 16px 25px;
+  }
+  .topnav a:hover {
+    background-color: cornflowerblue;
+    color: white;
+  }
+
+.main{
+  margin-left: 650px;
+  height: auto;
+  font-size: 30px;
+  background-color: aquamarine;
+  border: 2px solid gray;
+  border-radius: 5px;
+}
+
+li{
+  list-style-type:decimal;
+}

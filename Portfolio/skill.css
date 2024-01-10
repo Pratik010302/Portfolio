@@ -1,0 +1,33 @@
+body {
+  background-image: url("https://media.istockphoto.com/id/1340261342/photo/lightbulb-shaped-hole-ideas-innovation-concept.jpg?s=2048x2048&w=is&k=20&c=oRgIO11kSL9g7f2HFsxOcbTjaxLJ_10-R63-hTuKwRQ=");
+}
+
+.topnav {
+  display: flex;
+  height: 50px;
+  width: 100%;
+  background-color: darkgray;
+  border-radius: 10px;
+}
+.topnav a {
+  text-decoration: none;
+  text-align: center;
+  color: aqua;
+  font-size: 20px;
+  padding: 16px 25px;
+}
+.topnav a:hover {
+  background-color: cornflowerblue;
+  color: white;
+}
+
+.inner-1 {
+  margin-top: 20px;
+  padding: 5px;
+  margin-left: 10px;
+  margin-right: 700px;
+  background-color:orange;
+  height:auto;
+  border: 2px solid black;
+  border-radius: 5px;
+}
